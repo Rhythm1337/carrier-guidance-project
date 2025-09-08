@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Quiz – Career Compass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Career Compass</div>
+        <ul><li><a href="index.html">Home</a></li></ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="question-container">
+      <div class="progress-bar"><div class="progress" id="progress"></div></div>
+      <h2 id="question-text"></h2>
+      <div class="options" id="options"></div>
+      <div class="nav-buttons">
+        <button class="btn btn-secondary" id="back-btn">Back</button>
+        <button class="btn btn-primary" id="next-btn">Next</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/data-loader.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+{
+  "10th": {
+    "questions": [
+      { "key": "q1", "text": "Which subjects do you enjoy the most?", "type": "single", "options": [
+        { "text": "Mathematics & Physics", "scores": { "Science": 2, "Commerce": 1, "Arts": 0 } },
+        { "text": "Biology & Chemistry", "scores": { "Science": 2, "Commerce": 0, "Arts": 0 } },
+        { "text": "Accounts & Economics", "scores": { "Science": 0, "Commerce": 2, "Arts": 1 } },
+        { "text": "History & Literature", "scores": { "Science": 0, "Commerce": 0, "Arts": 2 } }
+      ]},
+      { "key": "q2", "text": "What type of activities do you prefer?", "type": "single", "options": [
+        { "text": "Building things & solving technical problems", "scores": { "Science": 2, "Commerce": 0, "Arts": 0 } },
+        { "text": "Managing budgets & organizing events", "scores": { "Science": 0, "Commerce": 2, "Arts": 1 } },
+        { "text": "Debating, writing, or creative expression", "scores": { "Science": 0, "Commerce": 0, "Arts": 2 } },
+        { "text": "Understanding living organisms & nature", "scores": { "Science": 2, "Commerce": 0, "Arts": 0 } }
+      ]},
+      { "key": "q3", "text": "What motivates you most in choosing a career?", "type": "single", "options": [
+        { "text": "Innovation and discovery", "scores": { "Science": 2, "Commerce": 1, "Arts": 0 } },
+        { "text": "Financial growth and business leadership", "scores": { "Science": 0, "Commerce": 2, "Arts": 0 } },
+        { "text": "Social impact and creative expression", "scores": { "Science": 0, "Commerce": 1, "Arts": 2 } }
+      ]},
+      { "key": "q4", "text": "Which work environment appeals to you?", "type": "single", "options": [
+        { "text": "A laboratory, workshop, or tech company", "scores": { "Science": 2, "Commerce": 0, "Arts": 0 } },
+        { "text": "A corporate office, bank, or startup", "scores": { "Science": 0, "Commerce": 2, "Arts": 0 } },
+        { "text": "A publishing house, NGO, or design studio", "scores": { "Science": 0, "Commerce": 0, "Arts": 2 } }
+      ]},
+      { "key": "q5", "text": "Do you prefer theoretical or practical learning?", "type": "single", "options": [
+        { "text": "Mostly practical and hands-on", "scores": { "Science": 2, "Commerce": 1, "Arts": 0 } },
+        { "text": "A mix of both theory and application", "scores": { "Science": 1, "Commerce": 1, "Arts": 1 } },
+        { "text": "Mostly theoretical and research-based", "scores": { "Science": 1, "Commerce": 0, "Arts": 2 } }
+      ]}
+    ],
+    "streams": {
+      "Science": {
+        "description": "Focuses on developing scientific temperament and skills in subjects like Physics, Chemistry, Mathematics, and Biology.",
+        "expertTip": "A strong foundation in math and science opens diverse and high-demand careers in engineering, medicine, and research.",
+        "courses": [
+          { "name": "B.Tech/B.E. (Engineering)", "url": "https://jeemain.nta.ac.in/" },
+          { "name": "MBBS (Medicine)", "url": "https://neet.ntaonline.in/" },
+          { "name": "B.Sc. (Pure Sciences)", "url": "https://aishe.gov.in/aishe/home" }
+        ],
+        "careers": ["Software Engineer", "Doctor", "Data Scientist", "Biotechnologist", "Architect"],
+        "exams": ["JEE (Main & Advanced)", "NEET", "BITSAT", "IISER Aptitude Test (IAT)"],
+        "videos": [ { "title": "Careers after 10th Science", "url": "https://www.youtube.com/embed/J9ffLNMug50" } ]
+      },
+      "Commerce": {
+        "description": "Focuses on business, finance, accounting, and economics to build commercial and financial acumen.",
+        "expertTip": "Develop analytical skills. Internships in finance firms and certifications like Tally are highly beneficial.",
+        "courses": [
+          { "name": "B.Com (Hons.)", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "BBA (Business Administration)", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "CA (Chartered Accountancy)", "url": "https://www.icai.org/" }
+        ],
+        "careers": ["Chartered Accountant", "Investment Banker", "Marketing Manager", "Financial Analyst", "Entrepreneur"],
+        "exams": ["CA Foundation", "CLAT (for Corporate Law)", "CUET"],
+        "videos": [ { "title": "Careers after 10th Commerce", "url": "https://www.youtube.com/embed/YIuGWzzRznU" } ]
+      },
+      "Arts": {
+        "description": "Explores humanities, languages, and social sciences, focusing on critical thinking, communication, and cultural understanding.",
+        "expertTip": "Communication and critical thinking are key. Pursue internships with NGOs, media houses, or research institutes.",
+        "courses": [
+          { "name": "B.A. (Hons.) in any subject", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "Bachelor of Journalism", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "Bachelor of Social Work", "url": "https://aishe.gov.in/aishe/home" }
+        ],
+        "careers": ["Civil Servant (IAS/IPS)", "Lawyer", "Journalist", "Graphic Designer", "Psychologist"],
+        "exams": ["UPSC Civil Services", "CLAT", "NID (for Design)", "CUET"],
+        "videos": [ { "title": "Careers after 10th Arts", "url": "https://www.youtube.com/embed/5W5_F9t8RIc" } ]
+      }
+    }
+  },
+  "12th": {
+    "questions": [
+       { "key": "q1", "text": "Which stream did you complete in 12th?", "type": "single", "options": [
+        { "text": "Science (PCM)", "scores": { "Engineering": 3, "Research": 2, "Business": 1, "Medical": 0, "Humanities": 0 } },
+        { "text": "Science (PCB)", "scores": { "Medical": 3, "Research": 2, "Engineering": 0, "Business": 0, "Humanities": 0 } },
+        { "text": "Commerce", "scores": { "Business": 3, "Humanities": 1, "Engineering": 0, "Medical": 0, "Research": 0 } },
+        { "text": "Arts/Humanities", "scores": { "Humanities": 3, "Business": 1, "Engineering": 0, "Medical": 0, "Research": 0 } }
+      ]},
+      { "key": "q2", "text": "What type of work environment appeals to you?", "type": "single", "options": [
+        { "text": "A fast-paced corporate office", "scores": { "Business": 2, "Engineering": 1, "Medical": 0, "Research": 0, "Humanities": 0 } },
+        { "text": "A hospital or healthcare facility", "scores": { "Medical": 2, "Research": 1, "Business": 0, "Engineering": 0, "Humanities": 0 } },
+        { "text": "A research lab or university", "scores": { "Research": 2, "Engineering": 1, "Medical": 1, "Business": 0, "Humanities": 0 } },
+        { "text": "A creative studio, NGO, or government office", "scores": { "Humanities": 2, "Business": 1, "Medical": 0, "Research": 0, "Engineering": 0 } }
+      ]},
+      { "key": "q3", "text": "What is your primary goal after graduation?", "type": "single", "options": [
+        { "text": "A high-paying job in a tech/corporate firm", "scores": { "Engineering": 2, "Business": 2, "Medical": 1, "Research": 0, "Humanities": 0 } },
+        { "text": "A stable, respected professional practice (like a doctor or lawyer)", "scores": { "Medical": 2, "Humanities": 2, "Business": 1, "Research": 0, "Engineering": 0 } },
+        { "text": "Pursuing higher studies (Masters/PhD) for deep expertise", "scores": { "Research": 2, "Engineering": 1, "Medical": 1, "Humanities": 1, "Business": 0 } },
+        { "text": "Starting my own business or social venture", "scores": { "Business": 2, "Humanities": 1, "Engineering": 1, "Medical": 0, "Research": 0 } }
+      ]}
+    ],
+    "streams": {
+      "Engineering": {
+        "description": "Involves applying scientific and mathematical principles to design, build, and maintain structures, machines, and systems.",
+        "expertTip": "Beyond JEE, focus on building a strong project portfolio. Participate in hackathons and learn in-demand coding languages.",
+        "courses": [
+          { "name": "B.Tech Computer Science", "url": "https://jeemain.nta.ac.in/" },
+          { "name": "B.Tech Mechanical Engg.", "url": "https://jeemain.nta.ac.in/" },
+          { "name": "Bachelor of Architecture (B.Arch)", "url": "https://nata.in/" }
+        ],
+        "careers": ["Software Developer", "Data Scientist", "Mechanical Engineer", "AI/ML Engineer"],
+        "exams": ["JEE (Main & Advanced)", "BITSAT", "VITEEE", "State CETs"],
+        "videos": [ { "title": "Engineering Career Paths", "url": "https://www.youtube.com/embed/J9ffLNMug50" } ]
+      },
+      "Medical": {
+        "description": "Dedicated to the science of healing, including diagnosis, treatment, and prevention of disease.",
+        "expertTip": "NEET is crucial. Gain practical experience by volunteering at local clinics or hospitals to build your profile.",
+        "courses": [
+          { "name": "MBBS", "url": "https://neet.ntaonline.in/" },
+          { "name": "BDS (Dental)", "url": "https://neet.ntaonline.in/" },
+          { "name": "B.Pharm (Pharmacy)", "url": "https://neet.ntaonline.in/" }
+        ],
+        "careers": ["Doctor (Specialist)", "Dentist", "Pharmacist", "Physiotherapist"],
+        "exams": ["NEET", "AIIMS", "JIPMER"],
+        "videos": [ { "title": "Medical Career Paths", "url": "https://www.youtube.com/embed/YIuGWzzRznU" } ]
+      },
+       "Business": {
+        "description": "Focuses on management, finance, marketing, and operations of organizations.",
+        "expertTip": "Develop soft skills like communication and leadership. Network actively and work on live business case studies.",
+        "courses": [
+          { "name": "BBA/BMS", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "B.Com (Hons.)", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "CA/CS/CMA", "url": "https://www.icai.org/" }
+        ],
+        "careers": ["Management Consultant", "Investment Banker", "Marketing Manager", "HR Manager"],
+        "exams": ["IPMAT (for IIMs)", "CUET", "NPAT"],
+        "videos": [ { "title": "Business & Finance Careers", "url": "https://www.youtube.com/embed/5W5_F9t8RIc" } ]
+      },
+      "Research": {
+        "description": "Involves in-depth study and investigation in a particular field to discover or revise facts, theories, etc.",
+        "expertTip": "Focus on building a strong theoretical base and developing analytical skills. Work on research projects with professors.",
+         "courses": [
+          { "name": "B.Sc Physics/Chemistry", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "B.Sc Biotechnology", "url": "https://aishe.gov.in/aishe/home" },
+          { "name": "Integrated M.Sc-PhD programs", "url": "https://www.iiseradmission.in/" }
+        ],
+        "careers": ["Research Scientist", "Academic Professor", "Product R&D", "Clinical Researcher"],
+        "exams": ["IISER Aptitude Test (IAT)", "NEST", "CUET"],
+        "videos": [ { "title": "Careers in Research", "url": "https://www.youtube.com/embed/J9ffLNMug50" } ]
+      },
+      "Humanities": {
+        "description": "Studies human society, culture, and expression. Fields include law, journalism, public policy, and design.",
+        "expertTip": "Build a strong portfolio of your work (writing, designs, projects). Internships are critical for practical experience.",
+         "courses": [
+          { "name": "B.A. LL.B. (Law)", "url": "https://consortiumofnlus.ac.in/clat-2024/" },
+          { "name": "B.Des (Design)", "url": "https://admissions.nid.edu/" },
+          { "name": "B.A. in Social Sciences", "url": "https://aishe.gov.in/aishe/home" }
+        ],
+        "careers": ["Lawyer", "Journalist", "UX/UI Designer", "Policy Analyst", "Civil Servant"],
+        "exams": ["CLAT", "NID/UCEED", "UPSC Civil Services", "CUET"],
+        "videos": [ { "title": "Careers in Humanities", "url": "https://www.youtube.com/embed/YIuGWzzRznU" } ]
+      }
+    }
+  }
+}
