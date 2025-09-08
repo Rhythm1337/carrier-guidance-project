@@ -35,6 +35,7 @@
 
 The project is organized with a clear separation of data, logic, and styling.
 
+```
 career-guidance/
 ├── index.html # Main landing page
 ├── quiz.html # Quiz interface page
@@ -47,7 +48,7 @@ career-guidance/
 └── js/
 ├── data-loader.js # Helper script to fetch JSON data
 └── app.js # Core application logic
-
+```
 
 ---
 
