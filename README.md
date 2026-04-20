@@ -69,6 +69,3 @@ career-guidance/
 5. **Dynamic Results**  
    On the results page, `app.js` reads the answers, calculates a total score for each potential stream based on the logic in `paths.json`, and then dynamically generates the entire results page, including the score breakdown and the detailed recommendation cards.
 
----
-
-Feel free to contribute or provide feedback to improve this tool!
