@@ -1,4 +1,4 @@
-# Career Compass: A Web-Based Career Guidance Tool
+# Career Compass: A Web-Based Career Guidance Tool (Vibe)
 
 **Career Compass** is a simple yet effective web application designed to help students in India make informed decisions about their academic and professional futures after completing their 10th and 12th grades. It replaces confusion with clarity by using a carefully designed quiz to provide personalized stream and career path recommendations.
 
